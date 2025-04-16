@@ -32,6 +32,11 @@
                     @if ($errors->has('auth'))
                         <div class="erro">{{ $errors->first('auth') }}</div>
                     @endif
+                    @if (session('mensagem'))
+                        <div class="alert alert-success">
+                            {{ session('mensagem') }}
+                        </div>
+                    @endif
                 </form>
             </div>
             <div class="cadastro-container col-12 col-md-6">

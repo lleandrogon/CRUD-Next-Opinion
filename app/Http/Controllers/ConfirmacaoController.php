@@ -43,9 +43,7 @@ class ConfirmacaoController extends Controller
             'token_expira_em' => null
         ]);
 
-        Auth::login($usuario);
-
-        return redirect()->route('principal');
+        return redirect()->route('login.index')->with('mensagem', 'E-mail confirmado com sucesso! Faça login para continuar.');
     }
 
     public function reenviar(Request $request) {
