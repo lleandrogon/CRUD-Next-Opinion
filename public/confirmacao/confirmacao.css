@@ -1,0 +1,43 @@
+.container {
+    height: 100vh;
+}
+
+.form-control {
+    background-color: var(--cinza-claro);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.form-control:focus {
+    background-color: var(--cinza-claro);
+    border: none;
+    box-shadow: 0 2px 8px var(--vermelho-claro);
+}
+
+.botao-token {
+    background-color: var(--vermelho);
+    color: var(--branco);
+    border: none;
+    border-radius: 25px;
+    padding: 7px 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: transform 0.3s, background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.botao-token:hover {
+    transform: scale(1.05);
+    background-color: var(--branco);
+    box-shadow: 0 4px 10px var(--vermelho);
+    color: var(--vermelho);
+}
+
+.reenviar {
+    background-color: transparent;
+    border: none;
+    color: var(--vermelho-claro);
+}
+
+.reenviar:hover {
+    color: var(--vermelho);
+}

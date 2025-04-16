@@ -21,6 +21,9 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'token_confirmacao',
+        'token_expira_em',
+        'email_confirmado'
     ];
 
     /**
@@ -43,6 +46,8 @@ class User extends Authenticatable
         return [
             'email_verified_at' => 'datetime',
             'password' => 'hashed',
+            'token_expira_em' => 'datetime',
+            'email_confirmado' => 'boolean'
         ];
     }
 }

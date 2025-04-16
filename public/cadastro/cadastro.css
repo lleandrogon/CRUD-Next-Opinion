@@ -1,0 +1,94 @@
+.container-geral {
+    background: linear-gradient(135deg, var(--cinza-claro), var(--branco));
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastro-container {
+    border-radius: 25px;
+    background-color: var(--branco);
+    color: var(--vermelho);
+    box-shadow: 0 4px 10px var(--preto);
+    width: 450px;
+    padding: 50px 0;
+}
+
+.titulo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.cadastro-titulo {
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+.exclamacao {
+    background: linear-gradient(135deg, var(--vermelho), var(--vermelho-claro));
+    color: var(--branco);
+    font-size: 1.7em;
+    padding: 10px 20px;
+    border-radius: 50%;
+}
+
+.cadastro-formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+}
+
+.form-control {
+    background-color: var(--cinza-claro);
+    border-radius: 20px;
+    padding: 10px;
+    width: 300px;
+}
+
+.form-control:focus {
+    background-color: var(--cinza-claro);
+    border: none;
+    box-shadow: 0 2px 8px var(--vermelho-claro);
+}
+
+.botao-cadastrar-container {
+    margin-top: 30px;
+}
+
+.botao-cadastrar {
+    background-color: var(--vermelho);
+    color: var(--branco);
+    border: none;
+    border-radius: 25px;
+    padding: 7px 30px;
+    font-size: 1.3em;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: transform 0.3s, background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.botao-cadastrar:hover {
+    transform: scale(1.1);
+    background-color: var(--branco);
+    box-shadow: 0 4px 10px var(--vermelho);
+    color: var(--vermelho);
+}
+
+.login-link-container {
+    text-align: center;
+    margin: 50px 0 20px 0;
+}
+
+.login-link {
+    color: var(--vermelho);
+}
+
+.login-link:hover {
+    color: var(--vermelho-claro);
+}

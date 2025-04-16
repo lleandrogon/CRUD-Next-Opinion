@@ -1,0 +1,25 @@
+:root {
+    --vermelho: #BE202B;
+    --vermelho-claro: #EA2B39;
+    --bege: #D2B48C;
+    --marrom: #473C2C;
+    --preto: #000000;
+    --cinza-claro: #f3f3f3;
+    --cinza: #d8d8d8;
+    --branco: #ffffff;
+}
+
+.sem-sublinhado {
+    text-decoration: none;
+}
+
+.erro {
+    color: var(--vermelho);
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form-label {
+    font-weight: 500;
+}

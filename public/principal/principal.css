@@ -1,0 +1,156 @@
+.cabecalho {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0 20px;
+    position: relative;
+}
+
+.cabecalho form {
+    position: absolute;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho button {
+    background-color: var(--vermelho);
+    color: var(--branco);
+    border: none;
+    border-radius: 25px;
+    padding: 12px 13px;
+    font-size: 1.2em;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabecalho button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px var(--vermelho);
+    background-color: var(--vermelho-claro);
+}
+
+.cabecalho button i {
+    margin: 0;
+}
+
+.titulo {
+    color: var(--marrom);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.logout {
+    background-color: var(--vermelho);
+    color: var(--branco);
+    border: none;
+    border-radius: 25px;
+    padding: 11px;
+    font-size: 1.4em;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s ease;
+    cursor: pointer;
+    position: absolute;
+    left: 20px;         
+}
+
+.logout:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px var(--vermelho);
+    background-color: var(--vermelho-claro);
+}
+
+.titulo {
+    color: var(--marrom);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+    text-align: center;
+}
+
+.tabela-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.table {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.cabecalho-tabela {
+    background-color: var(--marrom);
+    color: var(--bege);
+}
+
+.cabecalho-tabela th {
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 2px solid var(--bege);
+}
+
+.table tbody tr {
+    transition: all 0.2s ease;
+}
+
+.table tbody tr:hover {
+    background-color: var(--cinza-claro);
+}
+
+.table td {
+    padding: 12px;
+    vertical-align: middle;
+    border-top: 1px solid var(--cinza);
+    color: var(--preto);
+}
+
+.caneta {
+    color: var(--bege);
+    font-size: 1.3em;
+    transition: all 0.2s ease;
+    padding: 5px 8px;
+    border-radius: 4px;
+}
+
+.caneta:hover {
+    color: var(--marrom);
+    text-decoration: none;
+}
+
+.lixo {
+    border: none;
+    background-color: transparent;
+    color: var(--vermelho-claro);
+    font-size: 1.2em;
+    transition: all 0.2s ease;
+    padding: 5px 8px;
+    border-radius: 4px;
+}
+
+.lixo:hover {
+    color: var(--vermelho);
+}
+
+@media (max-width: 768px) {
+    .tabela-container {
+        width: 100%;
+    }
+    
+    .cabecalho-tabela th, 
+    .table td {
+        padding: 8px 5px;
+        font-size: 0.9rem;
+    }
+}
