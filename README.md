@@ -31,8 +31,8 @@
 <h4>Edite os campos MAILs no .env</h4>
 <p>O Mailtrap tem um campo chamada "Email Testing" lá estão todas as configurações do seu Mailtrap, copie o que está lá e coloque nos campos correspondentes no arquivo .env</p>
 
-<h4>Rode o seguinte comando para o envio de emails no mailtrap</h4>
-<p>php artisan queue:work</p>
-
-<h4>Por fim rode a aplicação principal</h4>
+<h4>Rode a aplicação principal</h4>
 <p>php artisan serve</p>
+
+<h4>Por fim rode o esse comando para o envio de emails no mailtrap</h4>
+<p>php artisan queue:work</p>
