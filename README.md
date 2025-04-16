@@ -34,5 +34,5 @@
 <h4>Rode a aplicação principal</h4>
 <p>php artisan serve</p>
 
-<h4>Por fim rode o esse comando para o envio de emails no mailtrap</h4>
+<h4>Por fim rode esse comando para o envio de emails no mailtrap</h4>
 <p>php artisan queue:work</p>
